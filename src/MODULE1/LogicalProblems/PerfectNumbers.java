@@ -1,5 +1,6 @@
 package MODULE1.LogicalProblems;
 
+// Perfect Number - the Number which divisor sum is equal to that number 6 = 1+2+3 = 6
 public class PerfectNumbers {
     public static void main(String[] args) {
         int num=6;
