@@ -8,14 +8,16 @@ public class Program4 {
 
         Scanner scn=new Scanner(System.in);
 
-        System.out.println("Enter the Name");
-        String name =scn.nextLine();
+
         System.out.println("Enter the mobile Number");
         long mobile=scn.nextLong();
         System.out.println("Enter the CTC");
         double ctc=scn.nextDouble();
         System.out.println("Are You Single");
         boolean single=scn.nextBoolean();
+
+        System.out.println("Enter the Name");
+        String name =scn.nextLine();
 
         System.out.println("Name of the Person: "+name);
         System.out.println("Mobile :"+mobile);
