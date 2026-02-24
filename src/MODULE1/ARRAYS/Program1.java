@@ -9,6 +9,7 @@ public class Program1 {
 //        for (int i = 0; i < arr.length; i++) {
 //            arr[i]= sc.nextInt();
 //        }
+
         arr[0]=12;
         arr[1]=13;
         arr[2]=14;
