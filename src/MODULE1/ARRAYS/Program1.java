@@ -15,9 +15,8 @@ public class Program1 {
         arr[2]=14;
         arr[3]=15;
 
-        for (int i=0;i<arr.length;i++)
-        {
-            System.out.println(arr[i]);
+        for (int j : arr) {
+            System.out.println(j);
         }
     }
 }
