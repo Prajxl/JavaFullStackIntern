@@ -10,9 +10,8 @@ public class SmallestInArray {
             {
                 System.out.println(smallest);
                 smallest=arr[i];
-
             }
         }
-        System.out.println("Smallest in Array="+smallest);
+        System.out.println("Smalest in Array="+smallest);
     }
 }
