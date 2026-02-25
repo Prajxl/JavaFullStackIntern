@@ -1,6 +1,6 @@
 package MODULE1.ARRAYS;
 
-public class P3 {
+public class P3_OddEven {
     public static void main(String[] args) {
         int[] arr={12,14,15,13,17,16};
         for (int i=0;i<arr.length;i++)
