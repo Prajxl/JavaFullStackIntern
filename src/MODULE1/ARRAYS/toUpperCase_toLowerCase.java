@@ -6,5 +6,8 @@ public class toUpperCase_toLowerCase {
         System.out.println(str.toUpperCase());
         System.out.println(str.toLowerCase());
         System.out.println(str);
+
+        String str1=str.toLowerCase();
+        System.out.println(str1);
     }
 }
