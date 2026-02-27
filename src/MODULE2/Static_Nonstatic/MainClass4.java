@@ -32,5 +32,6 @@ public class MainClass4 {
         System.out.println("Pen Color= "+p2.color);
         System.out.println("Pen brand= "+p2.brand);
         System.out.println("Main method ended");
+
     }
 }
