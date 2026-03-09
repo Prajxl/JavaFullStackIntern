@@ -31,5 +31,11 @@ public class DO_WHILELOOP {
         do {
             System.out.println(x+" Jspiders");
         }while (x>=1);
+
+        int u=1;
+        do {
+            System.out.println(u);
+            u++;
+        }while (u<=10);
     }
 }
