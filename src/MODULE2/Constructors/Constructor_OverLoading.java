@@ -33,7 +33,7 @@ class Pizza {
         }
     }
 }
-public class MainClass {
+public class Constructor_OverLoading {
     public static void main(String[] args) {
         Pizza p1 = new Pizza(true,"Mushroom");
         System.out.println(p1.cheese+" "+p1.toping+" "+p1.price);
