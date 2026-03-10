@@ -9,6 +9,7 @@ class  TicketCounter{
     static int sumOfTicket=0;
 
     TicketCounter(int counterNumber,int numberOfTickets,String ticketOfficerName) {
+        System.out.println("========================================");
         this.counterNumber = counterNumber;
         this.numberOfTickets = numberOfTickets;
         this.ticketOfficerName = ticketOfficerName;
@@ -23,6 +24,7 @@ class  TicketCounter{
 
     static void availableTicket()
     {
+        System.out.println("========================================");
         System.out.println("There are Total = "+  sumOfTicket +" Available");
     }
 
@@ -44,13 +46,15 @@ class  TicketCounter{
 
 }
 
-public class MainClass5 {
+public class TicketCounterApplication {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         TicketCounter t1 = new TicketCounter(1,10,"Prajwal");
         t1.details();
         TicketCounter t2 = new TicketCounter(2,9,"nandan");
         t2.details();
+        TicketCounter t3 = new TicketCounter(3,5,"Madan");
+        t3.details();
         TicketCounter.availableTicket();
         t1.buyTickets(sc);
     }
