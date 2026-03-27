@@ -12,9 +12,9 @@ public class Visa {
     {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the card Number");
-        long cardNumber=sc.nextLong();
+        long card=sc.nextLong();
         System.out.println("Enter the Pin Number");
-        int pinNumber= sc.nextInt();
-        return new DebitCard(cardNumber,pinNumber);
+        int pin= sc.nextInt();
+        return new DebitCard(card,pin);
     }
 }
