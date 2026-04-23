@@ -10,6 +10,5 @@ public class ImageClone {
 
         ImageClone edit = (ImageClone) original;
         System.out.println(edit.size);
-
     }
 }
